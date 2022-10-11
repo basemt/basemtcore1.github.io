@@ -1,0 +1,320 @@
+body {
+    margin: 80px;
+    background-color: rgb(255, 236, 198);
+  }
+
+
+  .font-effect-shadow-multiple{
+    color: #4c6acb;
+    font-size: 100px;
+    font-family: 'Great Vibes';
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+p{
+    color: #101010;
+    font-size: 20px;
+    font-family: 'IBM Plex Mono';
+    font-style: bold;
+    line-height: 300%;
+    margin-top: -50px;
+}
+
+.div1 {
+    background-color: rgb(137, 221, 129);
+    padding-block: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    font-family: 'Henny Penny';
+    text-align: center;
+    display: none;
+    position: relative;
+  }
+
+  .span1 {
+    font-size: 50px;
+    font-family: 'Henny Penny';
+    text-align: left;
+    padding-block: 50px;
+  }
+    
+  .span1:hover + .div1 {
+    display: block;
+  
+  }
+
+  .div2 {
+    background-color: rgb(221, 129, 129);
+    padding-block: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    font-family: 'Faster One';
+    display: none;
+    position: relative;
+    text-align: center;
+  }
+
+  .span2 {
+    font-size: 50px;
+    font-family: 'Faster One';
+    text-align: left;
+    padding-block: 50px;
+  }
+    
+  .span2:hover + .div2 {
+    display: block;
+ 
+  }
+
+  .div3 {
+    background-color: rgb(221, 129, 129);
+    padding-block: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    font-family: 'Creepster';
+    display: none;
+    position: relative;
+    text-align: center;
+  }
+
+  .span3 {
+    font-size: 50px;
+    font-family: 'Creepster';
+    text-align: left;
+    padding-block: 50px;
+  }
+    
+  .span3:hover + .div3 {
+    display: block;
+ 
+  }
+
+  .div4 {
+    background-color: rgb(137, 221, 129);
+    padding-block: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 35px;
+    font-family: 'Griffy';
+    text-align: center;
+    display: none;
+    position: relative;
+  }
+
+  .span4 {
+    font-size: 50px;
+    font-family: 'Griffy';
+    text-align: left;
+    padding-block: 50px;
+  }
+    
+  .span4:hover + .div4 {
+    display: block;
+  
+  }
+
+  .div5 {
+    background-color: rgb(221, 129, 129);
+    padding-block: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 45px;
+    font-family: 'Alumni Sans Collegiate One';
+    text-align: center;
+    display: none;
+    position: relative;
+  }
+
+  .span5 {
+    font-size: 50px;
+    font-family: 'Alumni Sans Collegiate One';
+    text-align: left;
+    padding-block: 50px;
+  }
+    
+  .span5:hover + .div5 {
+    display: block;
+  
+  }
+
+  .div6 {
+    background-color: rgb(137, 221, 129);
+    padding-block: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 35px;
+    font-family: 'Barriecito';
+    text-align: center;
+    display: none;
+    position: relative;
+  }
+
+  .span6 {
+    font-size: 50px;
+    font-family: 'Barriecito';
+    text-align: left;
+    padding-block: 50px;
+  }
+    
+  .span6:hover + .div6 {
+    display: block;
+  
+  }
+
+  .div7 {
+    background-color: rgb(137, 221, 129);
+    padding-block: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 35px;
+    font-family: 'Kavoon';
+    text-align: center;
+    display: none;
+    position: relative;
+  }
+
+  .span7 {
+    font-size: 50px;
+    font-family: 'Kavoon';
+    text-align: left;
+    padding-block: 50px;
+  }
+    
+  .span7:hover + .div7 {
+    display: block;
+  
+  }
+
+  .div8 {
+    background-color: rgb(221, 129, 129);
+    padding-block: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 40px;
+    font-family: 'Fredericka the Great';
+    text-align: center;
+    display: none;
+    position: relative;
+  }
+
+  .span8 {
+    font-size: 50px;
+    font-family: 'Fredericka the Great';
+    text-align: left;
+    padding-block: 50px;
+  }
+    
+  .span8:hover + .div8 {
+    display: block;
+  
+  }
+
+  .div9 {
+    background-color: rgb(221, 129, 129);
+    padding-block: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 40px;
+    font-family: 'Rubik Moonrocks';
+    text-align: center;
+    display: none;
+    position: relative;
+  }
+
+  .span9 {
+    font-size: 50px;
+    font-family: 'Rubik Moonrocks';
+    text-align: left;
+    padding-block: 50px;
+  }
+    
+  .span9:hover + .div9 {
+    display: block;
+  
+  }
+
+  .div10 {
+    background-color: rgb(137, 221, 129);
+    padding-block: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 35px;
+    font-family: 'Parisienne';
+    text-align: center;
+    display: none;
+    position: relative;
+  }
+
+  .span10 {
+    font-size: 55px;
+    font-family: 'Parisienne';
+    text-align: left;
+    padding-block: 50px;
+  }
+    
+  .span10:hover + .div10 {
+    display: block;
+  
+  }
+
+  .div11 {
+    background-color: rgb(221, 129, 129);
+    padding-block: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 40px;
+    font-family: 'Libre Barcode 39 Text';
+    text-align: center;
+    display: none;
+    position: relative;
+  }
+
+  .span11 {
+    font-size: 50px;
+    font-family: 'Libre Barcode 39 Text';
+    text-align: left;
+    padding-block: 50px;
+  }
+    
+  .span11:hover + .div11 {
+    display: block;
+  
+  }
+
+  .div12 {
+    background-color: rgb(137, 221, 129);
+    padding-block: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 35px;
+    font-family: 'UnifrakturMaguntia';
+    text-align: center;
+    display: none;
+    position: relative;
+  }
+
+  .span12 {
+    font-size: 55px;
+    font-family: 'UnifrakturMaguntia';
+    text-align: left;
+    padding-block: 50px;
+  }
+    
+  .span12:hover + .div12 {
+    display: block;
+  
+  }
+
+  .answer{
+    color: #8b0505;
+    font-size: 20px;
+    font-family: 'IBM Plex Mono';
+    font-style: bold;
+    line-height: 300%;
+    margin-top: -50px;
+}

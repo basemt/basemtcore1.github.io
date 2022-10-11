@@ -1,0 +1,128 @@
+body {
+    margin: 50px;
+    background-color: rgb(221, 240, 248);
+  }
+
+h1 {
+    color: rgb(10, 112, 112);
+    font-size: 50px;
+    font-family: 'Courier Prime';
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier Prime';
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background: linear-gradient(to bottom right, rgb(122, 149, 248), rgb(0, 8, 255));
+    flex-direction: row;
+    width: fit-content;
+  }
+  
+  .flex-container > div {
+    background-color:  rgb(221, 240, 248);
+    width: 375px;
+    height: 180px;
+    margin: 70px;
+    text-align: center;
+line-height: normal;
+    font-size: 20px;
+    font-family: 'Courier Prime';
+    font-style: italic;
+  }
+
+
+  .div1:hover:after {
+    display: block;
+    content: url(./imgs/wisdom.jpeg); filter: grayscale(100%);
+    position: relative;
+
+  width: 50%;
+    top: 30%;;
+    
+  }
+
+  .div2:hover:after {
+    display: block;
+    content: url(./imgs/goji.jpeg);
+    position: relative;
+    width: 50%;
+    top: 30%;;
+  }
+
+  .div3:hover:after {
+    display: block;
+    content: url(./imgs/downtown.jpeg);
+    position: relative;
+    width: 50%;
+    top: 30%;;
+  }
+
+  .div4:hover:after {
+    display: block;
+    content: url(./imgs/flight.jpeg);filter: grayscale(100%);
+    position: relative;
+    left: 50%;
+    top: 30%;;
+    width: 5%;
+  }
+
+  .div5:hover:after {
+    display: block;
+    content: url(./imgs/window.jpeg);
+    position: relative;
+    width: 50%;
+    top: 30%;;
+  }
+
+  .div6:hover:after {
+    display: block;
+    content: url(./imgs/facetime.PNG);filter: grayscale(100%);
+    position: relative;
+    width: 50%;
+    top: 30%;;
+  }
+
+  .div7:hover:after {
+    display: block;
+    content: url(./imgs/traffic.JPG);filter: grayscale(100%);
+    position: relative;
+    width: 50%;
+    top: 30%;;
+  }
+
+  .div8:hover:after {
+    display: block;
+    content: url(./imgs/joes.jpeg);
+    position: relative;
+    width: 50%;
+    top: 30%;;
+  }
+
+  .div9:hover:after {
+    display: block;
+    content: url(./imgs/electric.jpg);
+    position: relative;
+    width: 50%;
+    top: 30%;;
+  }
+
+  .div10:hover:after {
+    display: block;
+    content: url(./imgs/crack.jpeg);filter: grayscale(100%);
+    position: relative;
+    width: 50%;
+    top: 30%;;
+  }
+
+ 
