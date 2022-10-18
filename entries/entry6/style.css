@@ -1,0 +1,373 @@
+
+body {
+  margin: 0;
+  padding: 25;
+  background-image: url("./imgs/fog.gif");
+  background-size: 1800px;
+  
+}
+
+.paper1 {
+  position: absolute;
+  height: 550px;
+  width: 450px;
+  background: rgba(255,255,255);
+  left: 10%;
+  top: 10%;
+  box-shadow: 0px 0px 5px 0px #888;
+}
+.paper1::before {
+  content: '';
+  position: absolute;
+  left: 45px;
+  height: 100%;
+  width: 2px;
+  background: rgba(255,0,0,0.4);
+}
+.lines1 {
+  margin-top: 40px;
+  height: calc(100% - 40px);
+  width: 100%;
+  background-image: repeating-linear-gradient(white 0px, white 24px, steelblue 25px);
+}
+.text1 {
+  position: absolute;
+  top: 65px;
+  left: 55px;
+  bottom: 10px;
+  right: 10px;
+  line-height: 25px;
+  font-family: 'Courier Prime';
+  overflow: hidden;
+  outline: none;
+}
+
+.paper2 {
+    position: absolute;
+    height: 550px;
+    width: 450px;
+    float: right;
+    background: rgba(255,255,255);
+    left: 200px;
+    top: 120px;
+    box-shadow: 0px 0px 5px 0px #888;
+  }
+  .paper2::before {
+    content: '';
+    position: absolute;
+    left: 45px;
+    height: 100%;
+    width: 2px;
+    background: rgba(255,0,0,0.4);
+  }
+  .lines2 {
+    margin-top: 40px;
+    height: calc(100% - 40px);
+    width: 100%;
+    background-image: repeating-linear-gradient(white 0px, white 24px, steelblue 25px);
+  }
+  .text2 {
+    position: absolute;
+    top: 65px;
+    left: 55px;
+    bottom: 10px;
+    right: 10px;
+    line-height: 25px;
+    font-family: 'Courier Prime';
+    overflow: hidden;
+    outline: none;
+  }
+
+  .paper3 {
+    position: absolute;
+    height: 550px;
+    width: 450px;
+    float: right;
+    background: rgb(177, 226, 237);
+    left: 510px;
+    top: -50px;
+    box-shadow: 0px 0px 5px 0px #888;
+  }
+  .paper3::before {
+    content: '';
+    position: absolute;
+    left: 45px;
+    height: 100%;
+    width: 2px;
+    background: rgba(255,0,0,0.4);
+  }
+  .lines3 {
+    margin-top: 40px;
+    height: calc(100% - 40px);
+    width: 100%;
+    background-image: repeating-linear-gradient(rgb(177, 226, 237) 0px, rgb(177, 226, 237) 24px, rgb(0, 0, 0) 25px);
+  }
+  .text3 {
+    position: absolute;
+    top: 65px;
+    left: 55px;
+    bottom: 10px;
+    right: 10px;
+    line-height: 25px;
+    font-family: 'Courier Prime';
+    overflow: hidden;
+    outline: none;
+  }
+
+  .paper4 {
+    position: absolute;
+    height: 550px;
+    width: 450px;
+    float: right;
+    background: rgb(177, 226, 237);
+    left: 460px;
+    top: -70px;
+    box-shadow: 0px 0px 5px 0px #888;
+  }
+  .paper4::before {
+    content: '';
+    position: absolute;
+    left: 45px;
+    height: 100%;
+    width: 2px;
+    background: rgba(255,0,0,0.4);
+  }
+  .lines4 {
+    margin-top: 40px;
+    height: calc(100% - 40px);
+    width: 100%;
+    background-image: repeating-linear-gradient(rgb(177, 226, 237) 0px, rgb(177, 226, 237) 24px, rgb(0, 0, 0) 25px);
+  }
+  .text4 {
+    position: absolute;
+    top: 65px;
+    left: 55px;
+    bottom: 10px;
+    right: 10px;
+    line-height: 25px;
+    font-family: 'Courier Prime';
+    overflow: hidden;
+    outline: none;
+  }
+
+  .paper5 {
+    position: absolute;
+    height: 550px;
+    width: 450px;
+    float: right;
+    background: rgb(246, 208, 121);
+    left: 440px;
+    top: 40px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 5px 0px #888;
+  }
+  .paper5::before {
+    content: '';
+    position: absolute;
+    left: 45px;
+    height: 100%;
+    width: 2px;
+    background: rgba(255,0,0,0.4);
+  }
+  .lines5 {
+    margin-top: 40px;
+    height: calc(100% - 40px);
+    width: 100%;
+    background-image: repeating-linear-gradient(rgb(246, 208, 121) 0px, rgb(246, 208, 121) 24px, steelblue 25px);
+  }
+  .text5 {
+    position: absolute;
+    top: 65px;
+    left: 55px;
+    bottom: 10px;
+    right: 10px;
+    line-height: 25px;
+    font-family: 'Courier Prime';
+    overflow: hidden;
+    outline: none;
+  }
+
+  .paper6 {
+    position: absolute;
+    height: 550px;
+    width: 450px;
+    float: right;
+    background: rgb(246, 208, 121);
+    left: 440px;
+    top: 40px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 5px 0px #888;
+  }
+  .paper6::before {
+    content: '';
+    position: absolute;
+    left: 45px;
+    height: 100%;
+    width: 2px;
+    background: rgba(255,0,0,0.4);
+  }
+  .lines6 {
+    margin-top: 40px;
+    height: calc(100% - 40px);
+    width: 100%;
+    background-image: repeating-linear-gradient(rgb(246, 208, 121) 0px, rgb(246, 208, 121) 24px, steelblue 25px);
+  }
+  .text6 {
+    position: absolute;
+    top: 65px;
+    left: 55px;
+    bottom: 10px;
+    right: 10px;
+    line-height: 25px;
+    font-family: 'Courier Prime';
+    overflow: hidden;
+    outline: none;
+  }
+
+  .paper7 {
+    position: absolute;
+    height: 550px;
+    width: 450px;
+    float: right;
+    background: rgb(210, 172, 230);
+    left: 550px;
+    top: -50px;
+    margin-top: 80px;
+    box-shadow: 0px 0px 5px 0px #888;
+  }
+  .paper7::before {
+    content: '';
+    position: absolute;
+    left: 45px;
+    height: 100%;
+    width: 2px;
+    background: rgba(255,0,0,0.4);
+  }
+  .lines7 {
+    margin-top: 40px;
+    height: calc(100% - 40px);
+    width: 100%;
+    background-image: repeating-linear-gradient(rgb(210, 172, 230) 0px, rgb(210, 172, 230) 24px, steelblue 25px);
+  }
+  .text7 {
+    position: absolute;
+    top: 65px;
+    left: 55px;
+    bottom: 10px;
+    right: 10px;
+    line-height: 25px;
+    font-family: 'Courier Prime';
+    overflow: hidden;
+    outline: none;
+  }
+
+  .paper8 {
+    position: absolute;
+    height: 550px;
+    width: 450px;
+    float: right;
+    background: rgb(210, 172, 230);
+    left: 410px;
+    top: -100px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px 0px #888;
+  }
+  .paper8::before {
+    content: '';
+    position: absolute;
+    left: 45px;
+    height: 100%;
+    width: 2px;
+    background: rgba(255,0,0,0.4);
+  }
+  .lines8 {
+    margin-top: 40px;
+    height: calc(100% - 40px);
+    width: 100%;
+    background-image: repeating-linear-gradient(rgb(210, 172, 230) 0px, rgb(210, 172, 230) 24px, steelblue 25px);
+  }
+  .text8 {
+    position: absolute;
+    top: 65px;
+    left: 55px;
+    bottom: 10px;
+    right: 10px;
+    line-height: 25px;
+    font-family: 'Courier Prime';
+    overflow: hidden;
+    outline: none;
+  }
+
+  .paper9 {
+    position: absolute;
+    height: 550px;
+    width: 450px;
+    float: right;
+    background: rgb(210, 172, 230);
+    left: 450px;
+    top: -100px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px 0px #888;
+  }
+  .paper9::before {
+    content: '';
+    position: absolute;
+    left: 45px;
+    height: 100%;
+    width: 2px;
+    background: rgba(255,0,0,0.4);
+  }
+  .lines9 {
+    margin-top: 40px;
+    height: calc(100% - 40px);
+    width: 100%;
+    background-image: repeating-linear-gradient(rgb(210, 172, 230) 0px, rgb(210, 172, 230) 24px, steelblue 25px);
+  }
+  .text9 {
+    position: absolute;
+    top: 65px;
+    left: 55px;
+    bottom: 10px;
+    right: 10px;
+    line-height: 25px;
+    font-family: 'Courier Prime';
+    overflow: hidden;
+    outline: none;
+  }
+
+  .paper10 {
+    position: absolute;
+    height: 550px;
+    width: 450px;
+    float: right;
+    background: rgba(255,255,255);
+    left: 550px;
+    top: 50px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 5px 0px #888;
+  }
+  .paper10::before {
+    content: '';
+    position: absolute;
+    left: 45px;
+    height: 100%;
+    width: 2px;
+    background: rgba(255,0,0,0.4);
+  }
+  .lines10 {
+    margin-top: 40px;
+    height: calc(100% - 40px);
+    width: 100%;
+    background-image: repeating-linear-gradient(white 0px, white 24px, steelblue 25px);
+  }
+  .text10 {
+    position: absolute;
+    top: 65px;
+    left: 55px;
+    bottom: 10px;
+    right: 10px;
+    line-height: 25px;
+    font-family: 'Courier Prime';
+    overflow: hidden;
+    outline: none;
+  }
