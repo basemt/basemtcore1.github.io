@@ -1,0 +1,301 @@
+
+body {
+  background-image: url("./imgs/book\ backgroun.jpg");
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.wrapper {
+  flex: 1 100%;
+} 
+
+.main {
+  border: 20px solid rgb(237, 162, 23);
+} 
+
+.song {
+  border: 10px solid rgb(237, 162, 23);
+}
+
+.aside {
+  border: 20px solid rgb(38, 92, 193);
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  width:50%
+}
+
+.image1 {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  border: 5px solid #59e395;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 200%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #59e395;
+  font-size: 25px;
+  font-size: 1.75vw;
+  font-family: 'Courier Prime';
+  text-align: left;
+}
+
+.text {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container2 {
+  display: inline-block;
+  position: relative;
+  width:50%
+}
+
+.image2 {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  border: 5px solid #59e395;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 200%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #59e395;
+  font-size: 25px;
+  font-size: 1.75vw;
+  font-family: 'Courier Prime';
+  text-align: left;
+}
+
+.text2 {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.container2:hover .overlay2 {
+  opacity: 1;
+}
+
+.container3 {
+  display: inline-block;
+  position: relative;
+  width:50%
+}
+
+.image3 {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  border: 5px solid #e35959;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 200%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e35959;
+  font-size: 25px;
+  font-size: 1.75vw;
+  font-family: 'Courier Prime';
+  text-align: left;
+}
+
+.text3 {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.container3:hover .overlay3 {
+  opacity: 1;
+}
+
+.container4 {
+  display: inline-block;
+  position: relative;
+  width:50%
+}
+
+.image4 {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  border: 5px solid #59e395;
+}
+
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 200%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #59e395;
+  font-size: 25px;
+  font-size: 1.75vw;
+  font-family: 'Courier Prime';
+  text-align: left;
+}
+
+.text4 {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.container4:hover .overlay4 {
+  opacity: 1;
+}
+
+.container5 {
+  display: inline-block;
+  position: relative;
+  width:50%
+}
+
+.image5 {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  border: 5px solid #e35959;
+}
+
+.overlay5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 200%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e35959;
+  font-size: 25px;
+  font-size: 1.75vw;
+  font-family: 'Courier Prime';
+  text-align: left;
+}
+
+.text5 {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.container5:hover .overlay5 {
+  opacity: 1;
+}
+
+.container6 {
+  display: inline-block;
+  position: relative;
+  width:50%
+}
+
+.image6 {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  border: 5px solid #e35959;
+}
+
+.overlay6 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 200%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e35959;
+  font-size: 25px;
+  font-size: 1.75vw;
+  font-family: 'Courier Prime';
+  text-align: left;
+}
+
+.text6 {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.container6:hover .overlay6 {
+  opacity: 1;
+}
+
+@media all and (min-width: 800px) {
+  .main    { 
+    flex: 3; 
+    order: 1;
+    font-family:'Courier Prime';
+    text-align: left;
+    font-size: 4em;
+    font-weight: bold;
+    padding-left: 0.5em;
+    padding-top: 0.5em; 
+    padding-right: 0.5em;
+  }
+   
+  .song {
+    display: flex;
+    order: 3;
+    width: 50%;
+    height: 100px;
+    border: 10px solid rgb(237, 162, 23);
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-size: 2em;
+    font-size: 1.75vw;
+    font-family: 'Courier Prime';
+    color: black;
+  }
+
+  .fixed {
+    position: fixed;
+    bottom: 15%;
+  }
+
+  .aside { 
+    flex: 1; 
+    order: 2;
+    font-style: italic;
+    font-family: 'Courier Prime';
+    padding: 1em;
+    font-size: 25px;
+    font-size: 1.75vw;
+    text-align: justify;
+  }
+}
+

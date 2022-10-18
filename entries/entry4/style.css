@@ -40,16 +40,13 @@ line-height: normal;
     font-family: 'Courier Prime';
     font-style: italic;
   }
-
-
+  
   .div1:hover:after {
     display: block;
     content: url(./imgs/wisdom.jpeg); filter: grayscale(100%);
     position: relative;
-
   width: 50%;
-    top: 30%;;
-    
+    top: 30%;
   }
 
   .div2:hover:after {
@@ -57,7 +54,7 @@ line-height: normal;
     content: url(./imgs/goji.jpeg);
     position: relative;
     width: 50%;
-    top: 30%;;
+    top: 30%;
   }
 
   .div3:hover:after {
@@ -65,7 +62,7 @@ line-height: normal;
     content: url(./imgs/downtown.jpeg);
     position: relative;
     width: 50%;
-    top: 30%;;
+    top: 30%;
   }
 
   .div4:hover:after {
@@ -73,8 +70,7 @@ line-height: normal;
     content: url(./imgs/flight.jpeg);filter: grayscale(100%);
     position: relative;
     left: 50%;
-    top: 30%;;
-    width: 5%;
+    top: 30%;
   }
 
   .div5:hover:after {
@@ -82,7 +78,7 @@ line-height: normal;
     content: url(./imgs/window.jpeg);
     position: relative;
     width: 50%;
-    top: 30%;;
+    top: 30%;
   }
 
   .div6:hover:after {
@@ -90,7 +86,7 @@ line-height: normal;
     content: url(./imgs/facetime.PNG);filter: grayscale(100%);
     position: relative;
     width: 50%;
-    top: 30%;;
+    top: 30%;
   }
 
   .div7:hover:after {
@@ -98,7 +94,7 @@ line-height: normal;
     content: url(./imgs/traffic.JPG);filter: grayscale(100%);
     position: relative;
     width: 50%;
-    top: 30%;;
+    top: 30%;
   }
 
   .div8:hover:after {
@@ -106,7 +102,7 @@ line-height: normal;
     content: url(./imgs/joes.jpeg);
     position: relative;
     width: 50%;
-    top: 30%;;
+    top: 30%;
   }
 
   .div9:hover:after {
@@ -114,7 +110,7 @@ line-height: normal;
     content: url(./imgs/electric.jpg);
     position: relative;
     width: 50%;
-    top: 30%;;
+    top: 30%;
   }
 
   .div10:hover:after {
@@ -122,7 +118,7 @@ line-height: normal;
     content: url(./imgs/crack.jpeg);filter: grayscale(100%);
     position: relative;
     width: 50%;
-    top: 30%;;
+    top: 30%;
   }
 
  
