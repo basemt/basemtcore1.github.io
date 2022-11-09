@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    background-image: url("imgs/pumpkin.jpg");
+    background-size: 100% auto; 
+    
+}
+
+h1 {
+    font-style: bold;
+    font-family: Helvetica, sans-serif;
+    font-size: 70px;
+    color: rgb(45, 30, 255);
+    text-align: center; 
+    padding-top: 80px;
+}
+
+.grid-container{
+    display:grid; 
+    grid-template-columns:repeat(6, 1fr);
+    grid-column-gap:0.5em;
+    grid-row-gap:0.5em; 
+    margin:1em;
+    align-content:center;
+}
+
+.grid-container2{
+    display:grid; 
+    grid-template-columns:repeat(6, 1fr);
+    grid-column-gap:0.5em;
+    grid-row-gap:0.5em; 
+    margin:1em;
+    align-content:center;
+}
+
+.grid-container3{
+    display:grid; 
+    grid-template-columns:repeat(6, 1fr);
+    grid-column-gap:0.5em;
+    grid-row-gap:0.5em; 
+    margin:1em;
+    align-content:center;
+}
+
+.flex-item-left {
+  padding: 5px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  padding: 5px;
+  flex: 50%;
+  
+}
+
+img { 
+    display: inline-flex; 
+    height:200px; 
+    width:auto;   
+}
+
+
+#cop{
+    padding: 10px;
+}
+
+#pirate{
+  padding: 10px;
+}
+
+#vampire{
+  padding: 10px;
+}
+
+#ghost{
+  padding: 10px;
+}
+
+#grim{
+  padding: 10px;
+}
+
+#ghostface{
+  padding: 10px;
+}
+
+#clown{
+    padding: 10px;
+  }
+
+  #witch{
+    padding: 10px;
+  }
+
+  #queen{
+    padding: 10px;
+  }
+
+  #quinn{
+    padding: 10px;
+  }
+
+  #shrek{
+    padding: 10px;
+  }
+
+  #spider{
+    padding: 10px;
+  }
+
+  #freddy{
+    padding: 10px;
+  }
+
+  #bacon{
+    padding: 10px;
+  }
+
+  #zombie{
+    padding: 10px;
+  }
+
+  #ninja{
+    padding: 10px;
+  }
+
+  #gypsy{
+    padding: 10px;
+  }
+
+  #cowboy{
+    padding: 10px;
+  }
+
+  @media screen and (max-width: 1000px){
+ 
+    .grid-container{
+        grid-template-columns:repeat(3, 1fr);
+    } .grid-container2{
+        grid-template-columns:repeat(3, 1fr);
+    } .grid-container3{
+        grid-template-columns:repeat(3, 1fr);
+    }
+}

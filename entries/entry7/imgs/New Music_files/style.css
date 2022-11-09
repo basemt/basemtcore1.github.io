@@ -1,0 +1,33 @@
+body {
+    background-image: url("./imgs/laptop\ screen.webp");
+    opacity: .8;
+  }
+
+
+  .item1 { grid-area: header; 
+    color: whitesmoke}
+  .item2 { grid-area: menu; 
+    color: whitesmoke
+    
+}
+  .item3 { grid-area: main; }
+  .item4 { grid-area: right; }
+  .item5 { grid-area: footer; }
+  
+  .grid-container {
+    display: grid;
+
+    gap: 10px;
+    background-color: #1DB954;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: #191414;
+    text-align: left;
+    padding: 20px;
+    font-size: 25px;
+    font-size: 1.75vw;
+    text-align: justify;
+
+  }

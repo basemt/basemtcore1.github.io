@@ -1,0 +1,202 @@
+body {
+    background-image: url("./imgs/laptop\ screen.webp");
+ 
+  }
+
+  .item1 { grid-area: header; 
+    font-family: 'Courier Prime';
+    color: whitesmoke }
+
+  .item2 { grid-area: menu; 
+    font-family: 'Courier Prime';
+    color: whitesmoke
+}
+
+  .item3 { grid-area: main; }
+
+  .item4 { grid-area: right; 
+    font-family: 'Courier Prime';
+    color: whitesmoke}
+
+  .item5 { grid-area: footer; }
+  
+
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main right right'
+      'menu footer footer footer footer footer';
+    gap: 10px;
+    background-color: #1DB954;
+    padding: 10px;
+    justify-content: center;
+  }
+  
+  .grid-container > div {
+    background-color: #232423;
+    padding: 20px;
+    font-size: 25px;
+    font-size: 1.75vw;
+    text-align: justify;
+
+  }
+
+
+  .image1 { 
+    display: inline-grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: auto;
+    border: 5px solid #eceded; }
+    
+    .image2 { 
+      display: inline-grid;
+      margin-left: auto;
+      margin-right: auto;
+      width: 35%;
+      height: auto;
+      border: 5px solid  #eceded; }
+  
+      .image3 { 
+        display: inline-grid;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+        height: auto;
+        border: 5px solid  #eceded; }
+  
+        .image4 { 
+          display: inline-grid;
+          margin-left: auto;
+          margin-right: auto;
+          width: 35%;
+          height: auto;
+          border: 5px solid  #eceded; }
+
+          .image5 { 
+            display: inline-grid;
+            margin-left: auto;
+            margin-right: auto;
+            width: 35%;
+            height: auto;
+            border: 5px solid #eceded; }
+        
+            .image6 { 
+              display: inline-grid;
+              margin-left: auto;
+              margin-right: auto;
+              width: 35%;
+              height: auto;
+              border: 5px solid  #eceded; }
+
+              .image7 { 
+                display: inline-grid;
+                margin-left: auto;
+                margin-right: auto;
+                width: 35%;
+                height: auto;
+                border: 5px solid  #eceded; }
+
+                .image8 { 
+                  display: inline-grid;
+                  margin-left: auto;
+                  margin-right: auto;
+                  width: 35%;
+                  height: auto;
+                  border: 5px solid  #eceded; }
+
+                  .image9 { 
+                    display: inline-grid;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 35%;
+                    height: auto;
+                    border: 5px solid  #eceded; }
+
+                    .image10 { 
+                      display: inline-grid;
+                      margin-left: auto;
+                      margin-right: auto;
+                      width: 35%;
+                      height: auto;
+                      border: 5px solid  #eceded; }
+
+                      .image11 { 
+                        display: inline-grid;
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 35%;
+                        height: auto;
+                        border: 5px solid  #eceded; }
+
+                        .image12 { 
+                          display: inline-grid;
+                          margin-left: auto;
+                          margin-right: auto;
+                          width: 35%;
+                          height: auto;
+                          border: 5px solid  #eceded; }
+
+                          .image13 { 
+                            display: inline-grid;
+                            margin-left: auto;
+                            margin-right: auto;
+                            width: 35%;
+                            height: auto;
+                            border: 5px solid  #eceded; }
+
+@media print {
+.image1 {
+  border: 5px solid  #2bb010;
+}
+
+.image2 {
+  border: 5px solid  #2bb010;
+}
+
+.image3 {
+  border: 5px solid  #b60000;
+}
+
+.image4 {
+  border: 5px solid  #2bb010;
+}
+
+.image5 {
+  border: 5px solid  #b60000;
+}
+
+.image6 {
+  border: 5px solid  #b60000;
+}
+
+.image7 {
+  border: 5px solid  #2bb010;
+}
+
+.image8 {
+  border: 5px solid  #2bb010;
+}
+
+.image9 {
+  border: 5px solid  #b60000;
+}
+
+.image10 {
+  border: 5px solid  #b60000;
+}
+
+.image11 {
+  border: 5px solid  #2bb010;
+}
+
+.image12 {
+  border: 5px solid  #2bb010;
+}
+
+.image13 {
+  border: 5px solid  #b60000;
+}
+}
