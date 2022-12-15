@@ -1,0 +1,288 @@
+body {
+    background-color: #FFE3c2;
+  }
+  
+  .item1 { grid-area: 'header';
+   
+    font-family: 'Courier Prime';
+    text-align: left;
+    color: #623e29;
+    display: block;
+  }
+  .item2 { grid-area: 'menu'; 
+
+    font-family: 'Courier Prime';
+    font-size: 3vw;
+    text-align: left;
+    color: #623e29;
+    display: block;
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header'
+      'menu menu menu right right'
+      'menu footer footer footer footer footer';
+    gap: -15px;
+    padding: 15px;
+    justify-content: center;
+  }
+
+  .grid-container > div {
+    font-size: 25px;
+    font-size: 3vw;
+    padding: 20pt;
+  }
+
+
+  #image1 {
+    width: 10%;
+    height: auto;
+    float: center;   
+    margin: 0 0 0 15px;
+    display: block;
+  }
+    
+  #image2 {
+    width: 10%;
+    height: auto;
+    float: center;   
+    margin: 0 0 0 15px;
+    display: block;
+  }
+
+  #image3 {
+    width: 10%;
+    height: auto;
+    float: center;   
+    margin: 0 0 0 15px;
+    display: block;
+  }
+
+  img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+  .item3{
+    display: none; 
+  
+   }
+
+   .item4{
+       display: none; 
+     
+      }
+
+      .item5{
+        display: none; 
+      
+       }
+
+  .item6{
+       display: none; 
+     
+      }
+  
+  /* On screens that are 992px wide or less, the background color is WhiteSmoke */
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: #623e29;
+      color: #FFE3c2;
+    }
+    
+    .item3 { grid-area: 'header';
+   
+        font-family: 'Courier Prime';
+        text-align: left;
+        color: #FFE3c2;
+        display: block;
+      }
+      .item4 { grid-area: 'menu'; 
+    
+        font-family: 'Courier Prime';
+        font-size: 3vw;
+        text-align: left;
+        color: #FFE3c2;
+        display: block;
+      }
+    
+    
+      .grid-container {
+        display: grid;
+        grid-template-areas:
+          'header header header header'
+          'menu menu menu right right'
+          'menu footer footer footer footer footer';
+        padding: 10px;
+        justify-content: center;
+      }
+    
+      .grid-container > div {
+        font-size: 25px;
+        font-size: 3vw;
+        padding: 20pt;
+      }
+
+
+    #item1{
+     display: none; 
+   
+    }
+
+    #item2{
+        display: none; 
+      
+       }
+
+       .image1{
+        display: none; 
+      
+       }
+
+       .image2{
+        display: none; 
+      
+       }
+
+       .image3{
+        display: none; 
+      
+       }
+
+ 
+       .item3 { grid-area: 'header';
+   
+        font-family: 'Courier Prime';
+        text-align: left;
+        color: #FFE3c2;
+        display: block;
+        margin-top: -750px;
+        margin-bottom: 0px;
+      }
+      .item4 { grid-area: 'menu'; 
+    
+        font-family: 'Courier Prime';
+        font-size: 3vw;
+        text-align: left;
+        color: #FFE3c2;
+        display: block;
+        margin-top: -650px;
+        margin-bottom: 0px;
+      }
+    
+    
+      .grid-container2 {
+        display: grid;
+        grid-template-areas:
+          'header header header header'
+          'menu menu menu right right'
+          'menu footer footer footer footer footer';
+
+        justify-content: center;
+    
+      }
+    
+      .grid-container2 > div {
+        font-size: 3vw;
+
+      }
+
+  
+  /* On screens that are 600px wide or less, the background color is olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: #C06F3F;
+      color: #FFC2C2;
+    }
+    
+    .item5 { grid-area: 'header';
+   
+        font-family: 'Courier Prime';
+        text-align: left;
+        color: #FFE3c2;
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 0px;
+      }
+      .item6 { grid-area: 'menu'; 
+    
+        font-family: 'Courier Prime';
+        font-size: 3vw;
+        text-align: left;
+        color: #FFE3c2;
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 0px;
+      }
+    
+    
+      .grid-container3 {
+        display: grid;
+        grid-template-areas:
+          'header header header header'
+          'menu menu menu right right'
+          'menu footer footer footer footer footer';
+
+        justify-content: center;
+    
+      }
+    
+      .grid-container3 > div {
+        font-size: 3vw;
+
+      }
+
+    .item1{
+     display: none; 
+   
+    }
+
+    .item2{
+        display: none; 
+      
+       }
+
+       .image1{
+        display: none; 
+      
+       }
+
+       .image2{
+        display: none; 
+      
+       }
+
+       .image3{
+        display: none; 
+      
+       }
+
+       .item3{
+        display: none; 
+      
+       }
+
+       .item4{
+        display: none; 
+      
+       }
+    
+  }
+}
